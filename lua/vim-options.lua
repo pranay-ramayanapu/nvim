@@ -22,3 +22,17 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+
+-- Copy line down (Alt + Shift + Down)
+vim.keymap.set("n", "<M-C-Down>", "yyp")
+
+-- Copy line up (Alt + Shift + Up)
+vim.keymap.set("n", "<M-C-Up>", "yykP")
+
+-- Move line down (Alt + Down)
+vim.keymap.set("n", "<M-Down>", "ddp")
+
+-- Move line up (Alt + Up)
+vim.keymap.set("n", "<M-Up>", "ddkP")
+
+
